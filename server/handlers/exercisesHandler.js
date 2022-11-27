@@ -27,7 +27,7 @@ const getMysteryExercises = async (req, res) => {
     res.status(200).json({ status: 200, data: { mystery }});
   } catch (err) {
     res.status(400).json({ status: 400, message: 'Couldn\'t find items' });
-  }
+  };
 };
 
 //mark exercise as used by exercise id
