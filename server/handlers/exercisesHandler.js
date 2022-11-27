@@ -10,7 +10,7 @@ const getAllExercisesByBodyPart = async (req, res) => {
     res.status(200).json({ status: 200, data: { all: data, random: generateRandomExercises(data, workoutTime) }});
   } catch (err) {
     res.status(400).json({ status: 400, message: 'Couldn\'t find items' });
-  }
+  };
 };
 
 //get 5 random workouts of 5 exercises by random body parts
