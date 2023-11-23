@@ -11,7 +11,7 @@ import { useState } from 'react';
 import Mystery from './Mystery';
 
 const App = ()=> {
-console.log("sdfsdcsd")
+console.log("sdfsdcsdsdvdsfvsd")
   const [loading, setLoading] = useState(false);
 
   return ( 
